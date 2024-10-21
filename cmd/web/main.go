@@ -23,6 +23,8 @@ import (
 const webPort = "80"
 
 func main() {
+	NewURLSigner()
+
 	db := initDB()
 
 	session := initSession()
