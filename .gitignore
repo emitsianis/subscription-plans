@@ -27,3 +27,4 @@ go.work.sum
 db-data
 db.sql
 myapp
+tmp

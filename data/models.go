@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-const dbTimeout = time.Second * 3
+const dbTimeout = time.Second * 60
 
 var db *sql.DB
 
